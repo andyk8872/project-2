@@ -15,3 +15,11 @@
     background: #FBDF07 url("https://img.freepik.com/free-vector/wild-desert-landscape-daytime-scene_1308-50629.jpg?w=2000") no-repeat;
     background-size: cover;
   } 
+
+  /* Game-Area Settings*/
+#game-area {  
+    width: 60%;
+    text-align: center;    
+    background-color: burlywood;   
+  }
+  
