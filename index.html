@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
+
 <body>
     <!-- The Game Area -->
     <section id="game-area">
@@ -28,14 +30,20 @@
                 alt="Rock Paper Scissors Lizard Spock">
         </div>
 
+        <!-- The results (current and final) -->
         <h2>Result: <span id="result"></span></h2>
         <h2>Final Result: <span id="final"></span></h2>
 
+        <!-- Button for the user to choose -->
         <button aria-label="Rock" class="btn" id="rock">Rock</button>
         <button aria-label="Paper" class="btn" id="paper">Paper</button>
         <button aria-label="Scissors" class="btn" id="scissors">Scissors</button>
         <button aria-label="Spock" class="btn" id="spock">Spock</button>
         <button aria-label="Lizard" class="btn" id="lizard">Lizard</button>
+
+        <!-- Player and Conputer Scores -->
+        <h2>Player Score: <span id="user-score">0</span></h2>
+        <h2>Computer Score: <span id="computer-score">0</span></h2>
     </section>
 
     <!-- The About Modal Section -->
@@ -50,4 +58,5 @@
     <footer>Contact Links</footer>
 
 </body>
+
 </html>
