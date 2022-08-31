@@ -6,4 +6,12 @@
     border: 0;
   }
 
-
+  body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    font-family: Arial, Helvetica, sans-serif;  
+    background: #FBDF07 url("https://img.freepik.com/free-vector/wild-desert-landscape-daytime-scene_1308-50629.jpg?w=2000") no-repeat;
+    background-size: cover;
+  } 
