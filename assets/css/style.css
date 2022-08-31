@@ -23,3 +23,13 @@
     background-color: burlywood;   
   }
   
+/* Images Styles */
+.game-image {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1rem;   
+  }
+  
+  img {
+    width: 80%
+  }
