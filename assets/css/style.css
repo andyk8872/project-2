@@ -64,6 +64,7 @@
     color: #fff;
     border: 1px solid black;
     border-radius: 15px;
+    font-size: 1rem;
   }
 
 /* footer styles */
@@ -75,4 +76,30 @@ footer {
   left: 0;
   color: #fff;
   padding: 5px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 1.65rem;
+    word-spacing: 2rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+
+  hi {
+    font-size: 1.25rem;
+  }
+
+  #game-area {
+    width: 60%;
+  }
+
+  .btn {
+    padding: 0.35rem 1.25rem;
+  }
+
 }
