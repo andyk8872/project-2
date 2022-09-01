@@ -66,4 +66,13 @@
     border-radius: 15px;
   }
 
-
+/* footer styles */
+footer {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 5px;
+}
