@@ -1,22 +1,18 @@
+/* Global Variables */
 const userPicks = document.getElementsByTagName('button');
-console.log(userPicks);
 
 let playerDecide;
 
+/** Record which button is clicked and 
+ * run play functionGame */
 for (var i = 0; i < userPicks.length; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function (event) {
 
         playerDecide = event.target.id;
-
-        // let userResult = "assets/images/" + playerDecide + ".png";
-        // document.querySelectorAll("img")[0].setAttribute("src", userResult);
-
-        // let cRandom = computerPick();
-        // let randomComp = "assets/images/" + cRandom + ".png";
-        // document.querySelectorAll("img")[1].setAttribute("src", randomComp);
-    playGame(playerDecide);
+        playGame(playerDecide);
     });
 }
+
 
 function playGame(playerDecide) {
 
