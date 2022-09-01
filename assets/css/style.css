@@ -55,4 +55,15 @@
     width: 80%
   }
 
+  /* Button Styles */
+  .btn {
+    font-family: 'Inknut Antiqua', serif;
+    background-color: chocolate;
+    padding: 0.25rem 0.4rem;
+    margin: 0.3rem;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+
 
