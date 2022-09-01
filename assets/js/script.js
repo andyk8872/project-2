@@ -11,7 +11,9 @@ for (var i = 0; i < userPicks.length; i++) {
         let userResult = "assets/images/" + playerDecide + ".png";
         document.querySelectorAll("img")[0].setAttribute("src", userResult);
 
-        console.log(computerPick());
+        let cRandom = computerPick();
+        let randomComp = "assets/images/" + cRandom + ".png";
+        document.querySelectorAll("img")[1].setAttribute("src", randomComp);
    
        });      
    }  
