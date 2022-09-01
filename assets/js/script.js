@@ -10,9 +10,10 @@ for (var i = 0; i < userPicks.length; i++) {
 
         playerDecide = event.target.id;
         playGame(playerDecide);
+        console.log(playerDecide);
+
     });
 }
-
 
 function playGame(playerDecide) {
 
