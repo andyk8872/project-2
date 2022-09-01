@@ -1,1 +1,2 @@
-alert("Hello World");
+const userPicks = document.getElementsByTagName('button');
+console.log(userPicks);
