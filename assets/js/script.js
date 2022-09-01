@@ -13,7 +13,7 @@ for (var i = 0; i < userPicks.length; i++) {
 
         playerDecide = event.target.id;
         playGame(playerDecide);
-        console.log(playerDecide);       
+               
 
     });
 }
@@ -24,9 +24,14 @@ function playGame(playerDecide) {
     let userResult = "assets/images/" + playerDecide + ".png";
     document.querySelectorAll("img")[0].setAttribute("src", userResult);
 
-    let cRandom = computerPick();
+    computerChoice.innerHTML = computerPick();
+    let cRandom = computerChoice.textContent;
     let randomComp = "assets/images/" + cRandom + ".png";
-    document.querySelectorAll("img")[1].setAttribute("src", randomComp);    
+    document.querySelectorAll("img")[1].setAttribute("src", randomComp);
+    
+    console.log(playerDecide);
+    let computer = computerChoice.textContent;
+    console.log(computer);
 }   
 
 function computerPick() {
