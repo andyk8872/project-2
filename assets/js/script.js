@@ -27,9 +27,10 @@ function playGame(playerDecide) {
     let cRandom = computerChoice.textContent;
     let randomComp = "assets/images/" + cRandom + ".png";
     document.querySelectorAll("img")[1].setAttribute("src", randomComp);
-    
-    increaseScore();
+
     getResult();
+    increaseScore();
+   
 }   
 
 /* Choose a ramdom game item */
@@ -56,7 +57,7 @@ function getResult() {
         case playerDecide === 'lizard' && computer === 'spock':
         case playerDecide === 'lizard' && computer=== 'paper':
         case playerDecide === 'spock' && computer === 'rock':
-        case playerDecide === 'spock' && computer === 'Sscissors':        
+        case playerDecide === 'spock' && computer === 'scissors':        
             decision = 'You Win!';          
             break;
         case playerDecide === 'paper' && computer === 'scissors':
