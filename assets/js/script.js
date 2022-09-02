@@ -97,3 +97,21 @@ function increaseScore() {
         document.getElementById('computer-score').innerText = ++computerScore;
     }    
 } 
+
+/** The modal contianers * 
+ * get, open and close the help-modal containers  */
+ const modal = document.getElementById("aboutModal");
+ const win = document.getElementById("winModal");
+ const lose = document.getElementById("loseModal");
+
+ const btn = document.getElementById("myBtn"); 
+
+ const span = document.getElementsByClassName("close")[0]; 
+ 
+ btn.onclick = function() {
+   modal.style.display = "block";
+ };
+ 
+ span.onclick = function() {
+   modal.style.display = "none";
+ };
