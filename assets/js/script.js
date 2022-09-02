@@ -2,11 +2,13 @@
 const userPicks = document.getElementsByTagName('button');
 const computerChoice = document.getElementById('computer-choice');
 const result = document.getElementById('result');
+const final = document.getElementById('final');
 
 let playerDecide;
 let decision;
 let userScore = 0;
 let computerScore = 0;
+let finalResult = "";
 
 /** Record which button is clicked and 
  * run play functionGame */
@@ -34,7 +36,7 @@ function playGame(playerDecide) {
 
     getResult();
     increaseScore();
-    endGame();
+    final.innerHTML = endGame();
    
 }   
 
@@ -138,10 +140,13 @@ function increaseScore() {
         for (const input of inputs) {
         input.disabled = true;
         }
+        finalResult = "A great victory";
     }  else if (computerScore === 3) {
         const inputs = document.getElementsByTagName("button");
         for (const input of inputs) {
         input.disabled = true;
         }
+        finalResult = "Computer Rules";
     }
+    return finalResult;
  }
