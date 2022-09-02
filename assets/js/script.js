@@ -129,6 +129,16 @@ function increaseScore() {
             scissors.play();
             break;        
     
+            case "win":
+                let win = new Audio("assets/sounds/win.wav");
+                win.play();
+                break;
+          
+              case "lose":
+                  let lose = new Audio("assets/sounds/lose.wav");
+                  lose.play();
+                  break;
+
         default: console.log(click);
     
       }
@@ -141,12 +151,14 @@ function increaseScore() {
         input.disabled = true;
         }
         finalResult = "A great victory";
+        clickSound("win");
     }  else if (computerScore === 3) {
         const inputs = document.getElementsByTagName("button");
         for (const input of inputs) {
         input.disabled = true;
         }
         finalResult = "Computer Rules";
+        clickSound("lose");
     }
     return finalResult;
  }
