@@ -67,6 +67,74 @@
     font-size: 1rem;
   }
 
+/* The Modal*/
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow-y: auto;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #E6B325;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  color: brown;
+  text-align: center;
+  max-height: 100vh; 
+}
+
+/* The Close Modal Button */
+.close {
+  color: purple;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-btn:hover,
+.close:hover {
+  color: #E6B325;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-btn {
+    /* width: 5rem; */
+    border:2px solid green;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 15px;
+    background-color: #fff; 
+    margin:  5px 25%;       
+}
+
+
+.modal-btn:hover,
+.close:hover {
+  color: #E6B325;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-btn {
+    /* width: 5rem; */
+    border:2px solid black;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 15px;
+    background-color: #fff; 
+    margin:  5px 25%;       
+}
+
 /* footer styles */
 footer {
   position: fixed;
