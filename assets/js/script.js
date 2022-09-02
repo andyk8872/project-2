@@ -10,10 +10,12 @@ let decision;
  * run play functionGame */
 for (var i = 0; i < userPicks.length; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function (event) {
+        let btnChoice = event.target.tagName;
 
         playerDecide = event.target.id;
-
         playGame(playerDecide);
+
+        clickSound(btnChoice);
     });
 }
 
@@ -98,7 +100,7 @@ function increaseScore() {
     }    
 } 
 
-/** The modal contianers using w3schools.com * 
+/** The modal contianers using w3schools.com  * 
  * get, open and close the help-modal containers  */
  const modal = document.getElementById("aboutModal");
  const win = document.getElementById("winModal");
@@ -115,3 +117,15 @@ function increaseScore() {
  span.onclick = function() {
    modal.style.display = "none";
  };
+
+ function clickSound(click) {
+    switch (click) {                   
+        case "BUTTON":
+            let scissors = new Audio("assets/sounds/button.wav");
+            scissors.play();
+            break;        
+    
+        default: console.log(click);
+    
+      }
+ }
