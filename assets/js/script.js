@@ -152,6 +152,7 @@ function increaseScore() {
         }
         finalResult = "A great victory";
         clickSound("win");
+        win.style.display = "block";
     }  else if (computerScore === 3) {
         const inputs = document.getElementsByTagName("button");
         for (const input of inputs) {
@@ -159,6 +160,7 @@ function increaseScore() {
         }
         finalResult = "Computer Rules";
         clickSound("lose");
+        lose.style.display = "block";
     }
     return finalResult;
  }
