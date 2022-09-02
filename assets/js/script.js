@@ -35,7 +35,7 @@ function playGame(playerDecide) {
    
 }   
 
-/* Choose a ramdom game item */
+/* Choose a ramdom game item/image */
 function computerPick() {
     let picks = ["rock", "paper", "scissors", "spock", "lizard"];
     let randomPick = (Math.floor(Math.random() * 5));
