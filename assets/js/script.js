@@ -98,7 +98,7 @@ function increaseScore() {
     }    
 } 
 
-/** The modal contianers * 
+/** The modal contianers using w3schools.com * 
  * get, open and close the help-modal containers  */
  const modal = document.getElementById("aboutModal");
  const win = document.getElementById("winModal");
