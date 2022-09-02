@@ -12,9 +12,8 @@ for (var i = 0; i < userPicks.length; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function (event) {
 
         playerDecide = event.target.id;
-        playGame(playerDecide);
-               
 
+        playGame(playerDecide);
     });
 }
 
@@ -29,19 +28,18 @@ function playGame(playerDecide) {
     let randomComp = "assets/images/" + cRandom + ".png";
     document.querySelectorAll("img")[1].setAttribute("src", randomComp);
     
-    console.log(playerDecide);
-    let computer = computerChoice.textContent;
-    console.log(computer);
-
+    increaseScore();
     getResult();
 }   
 
+/* Choose a ramdom game item */
 function computerPick() {
     let picks = ["rock", "paper", "scissors", "spock", "lizard"];
     let randomPick = (Math.floor(Math.random() * 5));
     return picks[randomPick];
 }
 
+/*Work out the result/winner and display */
 function getResult() {
     let computer = computerChoice.textContent; 
      
@@ -76,7 +74,7 @@ function getResult() {
         default:
             decision = "Something Is Wrong";
     }    
-    // result.innerHTML = decision;
+   
     if (decision === "You Win!") {
         result.innerHTML = `${playerDecide} beats ${computer}`;
     } else if (decision === "You Lose!") {
@@ -85,3 +83,16 @@ function getResult() {
         result.innerHTML = "Draw!";
       }
 }
+
+function increaseScore() {
+    let userScore = 0;
+    let computerScore = 0;
+
+    if (decision === 'You Win!') {
+        userScore = parseInt(document.getElementById('user-score').innerText);
+        document.getElementById('user-score').innerText = ++userScore;
+    } else if (decision === 'You Lose!') {
+        computerScore = parseInt(document.getElementById('computer-score').innerText);
+        document.getElementById('computer-score').innerText = ++computerScore;
+    }    
+} 
