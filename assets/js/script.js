@@ -32,6 +32,8 @@ function playGame(playerDecide) {
     console.log(playerDecide);
     let computer = computerChoice.textContent;
     console.log(computer);
+
+    getResult();
 }   
 
 function computerPick() {
@@ -40,3 +42,46 @@ function computerPick() {
     return picks[randomPick];
 }
 
+function getResult() {
+    let computer = computerChoice.textContent; 
+     
+    switch(true) {
+        case computer === playerDecide:
+           decision = 'Draw';
+           break;
+        case playerDecide === 'scissors' && computer === 'paper':
+        case playerDecide === 'scissors' && computer === 'lizard': 
+        case playerDecide === 'paper' && computer === 'rock':
+        case playerDecide === 'paper' && computer === 'spock': 
+        case playerDecide === 'rock' && computer === 'lizard':
+        case playerDecide === 'rock' && computer === 'scissors': 
+        case playerDecide === 'lizard' && computer === 'spock':
+        case playerDecide === 'lizard' && computer=== 'paper':
+        case playerDecide === 'spock' && computer === 'rock':
+        case playerDecide === 'spock' && computer === 'Sscissors':        
+            decision = 'You Win!';          
+            break;
+        case playerDecide === 'paper' && computer === 'scissors':
+        case playerDecide === 'lizard' && computer=== 'scissors': 
+        case playerDecide === 'rock' && computer=== 'paper':
+        case playerDecide === 'spock' && computer === 'paper': 
+        case playerDecide === 'lizard' && computer === 'rock':
+        case playerDecide === 'scissors' && computer === 'rock': 
+        case playerDecide === 'spock' && computer === 'lizard':
+        case playerDecide === 'paper' && computer === 'lizard':
+        case playerDecide === 'rock' && computer === 'spock':
+        case playerDecide === 'scissors' && computer === 'spock':   
+            decision = 'You Lose!';
+            break;
+        default:
+            decision = "Something Is Wrong";
+    }    
+    // result.innerHTML = decision;
+    if (decision === "You Win!") {
+        result.innerHTML = `${playerDecide} beats ${computer}`;
+    } else if (decision === "You Lose!") {
+        result.innerHTML = `${computer} beats ${playerDecide}`;
+      } else {
+        result.innerHTML = "Draw!";
+      }
+}
