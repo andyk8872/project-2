@@ -9,6 +9,7 @@ let decision;
 let userScore = 0;
 let computerScore = 0;
 let finalResult = "";
+let timeLeft = 5;
 
 /** Record which button is clicked and 
  * run play functionGame */
@@ -153,6 +154,10 @@ function increaseScore() {
         finalResult = "A great victory";
         clickSound("win");
         win.style.display = "block";
+        setTimeout(countdown, 1000);
+        setTimeout(function(){
+            window.location.reload();
+         }, 5000);
     }  else if (computerScore === 3) {
         const inputs = document.getElementsByTagName("button");
         for (const input of inputs) {
@@ -161,6 +166,19 @@ function increaseScore() {
         finalResult = "Computer Rules";
         clickSound("lose");
         lose.style.display = "block";
+        setTimeout(countdown, 1000);
+        setTimeout(function(){
+            window.location.reload();
+         }, 5000);
     }
     return finalResult;
  }
+
+ function countdown() {
+	timeLeft--;
+	document.getElementById("win-timer").innerHTML = String( timeLeft );
+    document.getElementById("lose-timer").innerHTML = String( timeLeft );
+	if (timeLeft > 0) {
+		setTimeout(countdown, 1000);
+	}
+};
