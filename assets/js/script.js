@@ -5,6 +5,8 @@ const result = document.getElementById('result');
 
 let playerDecide;
 let decision;
+let userScore = 0;
+let computerScore = 0;
 
 /** Record which button is clicked and 
  * run play functionGame */
@@ -32,6 +34,7 @@ function playGame(playerDecide) {
 
     getResult();
     increaseScore();
+    endGame();
    
 }   
 
@@ -88,8 +91,7 @@ function getResult() {
 }
 
 function increaseScore() {
-    let userScore = 0;
-    let computerScore = 0;
+   
 
     if (decision === 'You Win!') {
         userScore = parseInt(document.getElementById('user-score').innerText);
@@ -128,4 +130,18 @@ function increaseScore() {
         default: console.log(click);
     
       }
+ }
+
+ function endGame() {
+    if (userScore === 3) {
+        const inputs = document.getElementsByTagName("button");
+        for (const input of inputs) {
+        input.disabled = true;
+        }
+    }  else if (computerScore === 3) {
+        const inputs = document.getElementsByTagName("button");
+        for (const input of inputs) {
+        input.disabled = true;
+        }
+    }
  }
