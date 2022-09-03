@@ -106,6 +106,25 @@ img {
   font-weight: bold;
 }
 
+/* loser/winner modal styling */ 
+.winner {
+  background-color: rgb(178, 221, 20);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  color: brown;    
+}
+
+.loser {
+  background-color: rgb(197, 86, 52);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  color: rgb(89, 42, 165);    
+}
+
 .about-button:hover,
 .close:hover {
   color: brown;
@@ -120,7 +139,7 @@ img {
   border-radius: 15px;
   margin: 0 25% 8px 25%;
   padding: 8px 16px;
-  letter-spacing: 0.5rem;
+  /* letter-spacing: 0.5rem; */
   font-weight: bold;
 }
 
@@ -142,13 +161,7 @@ footer {
 
 /* Media Queries */
 
-@media screen and (min-width: 768px) {
 
-  h1 {
-    font-size: 1.65rem;
-    word-spacing: 2rem;
-  }
-}
 
 @media screen and (min-width: 576px) {
 
@@ -173,6 +186,14 @@ footer {
     padding: 0.35rem 1.25rem;
   }
 
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 1.65rem;
+    word-spacing: 2rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
