@@ -64,7 +64,8 @@
     color: #fff;
     border: 1px solid black;
     border-radius: 15px;
-    font-size: 1rem;
+    font-size: 0.75rem;
+    cursor: pointer;
   }
 
 /* The Modal*/
@@ -107,8 +108,7 @@
   cursor: pointer;
 }
 
-.modal-btn {
-    /* width: 5rem; */
+.modal-btn {   
     border:2px solid green;
     cursor: pointer;
     padding: 8px 16px;
@@ -120,7 +120,7 @@
 
 .modal-btn:hover,
 .close:hover {
-  color: #E6B325;
+  color: brown;
   text-decoration: none;
   cursor: pointer;
 }
@@ -147,7 +147,7 @@ footer {
 }
 
 /* Media Queries */
-
+ 
 @media screen and (min-width: 768px) {
 
   h1 {
@@ -164,6 +164,15 @@ footer {
 
   #game-area {
     width: 60%;
+  } 
+
+    p {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
   }
 
   .btn {

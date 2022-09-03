@@ -92,9 +92,8 @@ function getResult() {
         result.innerHTML = "Draw!";
       }
 }
-
-function increaseScore() {
-   
+/* Increase score function (Fron code-institute 'Love Maths' project)  */
+function increaseScore() {   
 
     if (decision === 'You Win!') {
         userScore = parseInt(document.getElementById('user-score').innerText);
@@ -106,7 +105,7 @@ function increaseScore() {
 } 
 
 /** The modal contianers using w3schools.com  * 
- * get, open and close the help-modal containers  */
+ * get, open and close the modal containers  */
  const modal = document.getElementById("aboutModal");
  const win = document.getElementById("winModal");
  const lose = document.getElementById("loseModal");
@@ -123,6 +122,7 @@ function increaseScore() {
    modal.style.display = "none";
  };
 
+ /* Sound switch function */
  function clickSound(click) {
     switch (click) {                   
         case "BUTTON":
@@ -145,6 +145,7 @@ function increaseScore() {
       }
  }
 
+ /* The endGame function - timed restart, disables buttons and win/lose display */
  function endGame() {
     if (userScore === 3) {
         const inputs = document.getElementsByTagName("button");
@@ -174,6 +175,7 @@ function increaseScore() {
     return finalResult;
  }
 
+ /* Countdown function */
  function countdown() {
 	timeLeft--;
 	document.getElementById("win-timer").innerHTML = String( timeLeft );
