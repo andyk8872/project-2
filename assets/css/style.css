@@ -45,6 +45,10 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  margin-bottom: 1rem;
+}
+
 h4 {
   color: blue;
 }
@@ -71,6 +75,11 @@ img {
   border-radius: 15px;
   font-size: 0.75rem;
   cursor: pointer;
+}
+
+.btn-press {
+  /* margin: 3rem; */
+  background-color: rgb(89, 42, 165);
 }
 
 /* The Modal*/

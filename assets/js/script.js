@@ -39,6 +39,7 @@ function playGame(playerDecide) {
 
     getResult();
     increaseScore();
+    buttonAnimation(playerDecide);
     final.innerHTML = endGame();
 
 }
@@ -187,3 +188,16 @@ function countdown() {
         setTimeout(countdown, 1000);
     }
 }
+
+/* Button - remove/add style class */
+function buttonAnimation(clicked) {
+
+    let clickedButton = document.querySelector("#" + clicked);
+  
+    clickedButton.classList.add("btn-press");
+  
+    setTimeout(function() {
+      clickedButton.classList.remove("btn-press");
+    }, 500);
+  
+  }
