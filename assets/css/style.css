@@ -176,12 +176,9 @@ footer {
   margin: 0;
 }
 /* Media Queries */
-
-
-
 @media screen and (min-width: 576px) {
 
-  hi {
+  h1 {
     font-size: 1.25rem;
   }
 
@@ -228,9 +225,9 @@ footer {
 }
 
 /* Contact form css */
-family=Montserrat:400,700);
+/* family=Montserrat:400,700);
 
-body { background:rgb(30,30,40); }
+body { background:rgb(30,30,40); } */
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {

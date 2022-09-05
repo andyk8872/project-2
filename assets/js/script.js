@@ -18,6 +18,7 @@ let timeLeft = 5;
 for (let i = 0; i < userPicks.length; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function (event) {
         let btnChoice = event.target.tagName;
+        console.log(btnChoice);
 
         playerDecide = event.target.id;
         playGame(playerDecide);
@@ -117,9 +118,9 @@ const btn = document.getElementById("myBtn");
 
 const span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function () {
-    modal.style.display = "block";
-};
+// btn.onclick = function () {
+//     modal.style.display = "block";
+// };
 
 span.onclick = function () {
     modal.style.display = "none";
