@@ -21,6 +21,7 @@ body {
   width: 90%;
   text-align: center;
   background-color: burlywood;
+  margin-bottom: 5rem;
 }
 
 /* Heading Settings */
@@ -166,6 +167,7 @@ footer {
   left: 0;
   color: #fff;
   padding: 5px;
+  background-color: black;
 }
 
 .fa-solid {
