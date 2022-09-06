@@ -21,7 +21,7 @@ body {
   width: 90%;
   text-align: center;
   background-color: burlywood;
-  margin-bottom: 5rem;
+  margin: 2rem;
 }
 
 .hide-result {
@@ -82,8 +82,7 @@ img {
   cursor: pointer;
 }
 
-.btn-press {
-  /* margin: 3rem; */
+.btn-press {  
   background-color: rgb(89, 42, 165);
 }
 
@@ -152,8 +151,7 @@ img {
   background-color: #fff;
   border-radius: 15px;
   margin: 0 25% 8px 25%;
-  padding: 8px 16px;
-  /* letter-spacing: 0.5rem; */
+  padding: 8px 16px;  
   font-weight: bold;
 }
 
@@ -235,11 +233,11 @@ footer {
   }
 }
 
-/* Contact form css */
-/* family=Montserrat:400,700);
-
-body { background:rgb(30,30,40); } */
-form { max-width:420px; margin:50px auto; }
+/* Contact form css from freefrontend.com */
+form {
+  max-width:420px;
+  margin:50px auto;
+ }
 
 .feedback-input {
   color:white;
