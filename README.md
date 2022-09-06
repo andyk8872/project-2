@@ -6,13 +6,15 @@
     * [Returning Visitor Goals](#returning-visitor-goals)
     * [Frequent Visitor Goals](#frequent-visitor-goals)
   * [Structure](#structure)
-  * [Design](#Design)![Site Logo](assets/images/favicon/android-chrome-192x192.png)
+  * [Design](#Design)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
-
+* [Deployment](#deployment)    
+    * [Using GitHub Pages](#using-github-pages)
+    
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
 ## Purpose
@@ -52,7 +54,16 @@ The site will be responsive and the layout will change dependent on the screen s
 > As a Firt Time user, I want to find to be able to contact the site owners.
 
 In the contact page there will be be an area to leave a message for the site owners.
+***
 
+  ## Deployment:
+  ### Using Github Pages
+  1. Navigate to the GitHub [Repository:](https://github.com/andyk8872/project-2)
+  1. Click the 'Settings' Tab.
+  1. Goto the Git Hub Pages Heading.
+  1. Select 'Main Branch' as the source.
+  1. Click the Save button.
+  1. Click on the link to go to the live deployed page. [Live Site:](https://andyk8872.github.io/project-2) 
 
 
 
