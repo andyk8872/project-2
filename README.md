@@ -13,8 +13,11 @@
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
 * [Technologies](#technologies)
-* [Deployment](#deployment)    
-    * [Using GitHub Pages](#using-github-pages)
+* [Deployment](#deployment)
+* [Credits](#credits) 
+    * [Media](#media)
+    * [Content](content)
+    * [Code & Tutorials](#code-&-tutorials)
     
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
@@ -81,7 +84,25 @@ In the contact page there will be be an area to leave a message for the site own
 * [GitHub](https://github.com/)
   * GitHub is the hosting site used to store the source code for the Website and is used for the deployment of the live site.
 * [iPiccy](http://ipiccy.com) and [Pixelied](https://pixelied.com)
-  * These sites were useed to edit the sites Game images.       
+  * These sites were useed to edit the sites Game images.
+* [Freepiq](http://freepiq.com)
+  * The background image was sourced from Freepiq.com
+* [Color.io](http://color.io)
+  * The color pallete was derived from color.io.
+* [Sound](https://www.audiomicro.com/free-sound-effects)
+  * The sounds were sourced from audiomicro.com.         
+  ***
+
+ ## Credits:
+ * ###  Code and Tutorials
+   * [w3schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+     * The 'Modals' ('Victory', 'Lose', and 'About') were outlined in w3schools.com
+   * [Love Maths](https://learn.codeinstitute.net/)
+     * The score function was reproduced from the Code Institute Love Maths project. 
+   * [Free Frontend](https://freefrontend/)
+     * The contact form was reproduced from a Freefront end templete.
+   * [Page Structure](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+     * The page structure was partly based on an idea from a Youtube tutorial by Anna Kubow.   
 
 
 
