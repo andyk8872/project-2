@@ -12,6 +12,7 @@
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
+* [Technologies](#technologies)
 * [Deployment](#deployment)    
     * [Using GitHub Pages](#using-github-pages)
     
@@ -42,7 +43,9 @@ The live website can be found [here](https://andyk8872.github.io/project-2/).
 #### Frequent Visitor Goals
 * As a Frequent user, I want to check to see if there are any changes.
 * As a Frequent user, I want to check to see if there are any new updates.
-### Structure
+***
+
+## Structure
 The main page is the Game page.
 The purpose of this is to fulfill the user story:
 > As a First Time user, I want to easily understand the main purpose of the site.
@@ -63,7 +66,22 @@ In the contact page there will be be an area to leave a message for the site own
   1. Goto the Git Hub Pages Heading.
   1. Select 'Main Branch' as the source.
   1. Click the Save button.
-  1. Click on the link to go to the live deployed page. [Live Site:](https://andyk8872.github.io/project-2) 
+  1. Click on the link to go to the live deployed page. [Live Site:](https://andyk8872.github.io/project-2)
+  ***
+
+## Technologies:
+*  HTML
+	* This project uses HTML as the markup language to structure the Website.
+* CSS
+	* This project uses custom written CSS to style the Website.
+* Javascript
+  * This project uses Javascript to implement dynamic features on the site and therefore making it  interactive.
+* [Google Fonts](https://fonts.google.com/)
+  * This project uses Google Fonts (Indie Flower and Inknut)
+* [GitHub](https://github.com/)
+  * GitHub is the hosting site used to store the source code for the Website and is used for the deployment of the live site.
+* [iPiccy](http://ipiccy.com) and [Pixelied](https://pixelied.com)
+  * These sites were useed to edit the sites Game images.       
 
 
 
