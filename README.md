@@ -13,6 +13,7 @@
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
 * [Technologies](#technologies)
+* [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits) 
     * [Media](#media)
@@ -95,16 +96,32 @@ In the contact page there will be be an area to leave a message for the site own
   * The icon in th econtact section         
   ***
 
- ## Credits:
- * ###  Code and Tutorials
-   * [w3schools](https://www.w3schools.com/howto/howto_css_modals.asp)
-     * The 'Modals' ('Victory', 'Lose', and 'About') were outlined in w3schools.com
-   * [Love Maths](https://learn.codeinstitute.net/)
-     * The score function was reproduced from the Code Institute Love Maths project. 
-   * [Free Frontend](https://freefrontend/)
+## Testing:
+* ### Code Validation
+  * The Game has been throughly tested. All the code has been validated through w3c HTML Validator, w3c CSS Validator and the JSHint Validator.
+    Any errors shown were remedied. This can all be seen below.<br><br>
+
+* ### HTML Validation Image
+  * The first image shows the errors and the second shows the image after errors remedied.
+
+    ![HTML Validation](docs/html-error.png)
+    ![HTML Validation](docs/html-clear.png)<br><br>
+
+* ### CSS Validation Image:    
+  * The first image shows the errors and the second shows the image after errors remedied.
+
+    ![CSS Validation](docs/css-error.png)
+    ![CSS Validation](docs/css-clear.png)<br><br>
+
+## Credits:
+* ###  Code and Tutorials    
+  * [Love Maths](https://learn.codeinstitute.net/)
+    * The score function was reproduced from the Code Institute Love Maths project. 
+  * [Free Frontend](https://freefrontend/)
      * The contact form was reproduced from a Freefront end templete.
-   * [Page Structure](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
-     * The page structure was partly based on an idea from a Youtube tutorial by Anna Kubow.   
+  * [Page Structure](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+     * The HTML page structure was partly based on an idea from a Youtube tutorial by 'Anna Kubow'.
+     ***   
 
 
 
