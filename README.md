@@ -90,7 +90,9 @@ In the contact page there will be be an area to leave a message for the site own
 * [Color.io](http://color.io)
   * The color pallete was derived from color.io.
 * [Sound](https://www.audiomicro.com/free-sound-effects)
-  * The sounds were sourced from audiomicro.com.         
+  * The sounds were sourced from audiomicro.com.
+* [Font Awesome](https://fontawesome.com/)  
+  * The icon in th econtact section         
   ***
 
  ## Credits:
