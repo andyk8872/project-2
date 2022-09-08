@@ -21,12 +21,12 @@ body {
   width: 90%;
   text-align: center;
   background-color: burlywood;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
-.hide-result {
+/* .hide-result {
   display: none;
-}
+} */
 
 /* Heading Settings */
 header {
@@ -40,14 +40,14 @@ h1 {
   color: #FBDF07;
   padding: 1rem;
   text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: .1rem;
+  font-size: 1rem;
+  letter-spacing: .3rem;
 }
 
 h2 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
-  font-size: 0.75em;
+  font-size: 2em;
 }
 
 h3 {
@@ -80,6 +80,8 @@ img {
   border-radius: 15px;
   font-size: 0.75rem;
   cursor: pointer;
+  text-align: center;
+  width: 4.25rem;
 }
 
 .btn-press {  
@@ -179,17 +181,23 @@ footer {
 .bottom {
   margin: 0;
 }
+
+/* Display Final */
+.hide-result {
+  display: none;
+}
+
 /* Media Queries */
 @media screen and (min-width: 576px) {
 
   h1 {
     font-size: 1.25rem;
-    letter-spacing: 0.3rem;
+    /* letter-spacing: 0.3rem; */
   }
 
-  h2 {
+  /* h2 {
     font-size: 1.25rem;
-  }
+  } */
 
   #game-area {
     width: 60%;
@@ -204,18 +212,22 @@ footer {
     font-size: 1.75rem;
   }
 
-  .btn {
+  /* .btn {
     padding: 0.35rem 1.25rem;
-  }
+  } */
 
 }
 
 @media screen and (min-width: 768px) {
 
   h1 {
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     word-spacing: 2rem;
   }
+
+  /* .hide {
+    display: block;
+  } */
 
 }
 
@@ -225,12 +237,6 @@ footer {
     position: relative;
   }
 
-  h1,
-  h2 {
-   font-size: 1.5rem; 
-  }
-
-
   .about-button {
     position: absolute;
     right: 0;
@@ -238,9 +244,6 @@ footer {
     margin: 5px;
   }
 
-  .hide-result {
-    display: block;
-  }
 }
 
 /* Contact form css from freefrontend.com */
