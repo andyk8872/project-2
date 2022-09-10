@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */ 
+/*jshint esversion: 6 */
 
 /* Global Variables */
 const userPicks = document.getElementsByTagName('button');
@@ -132,37 +132,40 @@ span.onclick = function () {
 muteButton.addEventListener("click", onOff);
 
 function onOff() {
-    mute = !mute;
- console.log(mute);
- const volume = document.getElementById("mute");
- if (volume.innerHTML === '<i class="fa-solid fa-music"></i>') {
-    volume.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
-  } else {
-    volume.innerHTML = '<i class="fa-solid fa-music"></i>';
-  }
+    mute = !mute;   
+    
+    if (muteButton.innerHTML === '<i class="fa-solid fa-music"></i>') {
+        muteButton.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
+    } else {
+        muteButton.innerHTML = '<i class="fa-solid fa-music"></i>';
+    }
 }
 
 /* Sound switch function */
 function clickSound(click) {
-    switch (click) {
-        case "BUTTON":
-            let scissors = new Audio("assets/sounds/button.wav");
-            scissors.play();
-            break;
+    if (mute == true) {
+        return;
+    } else {
+        switch (click) {
+            case "BUTTON":
+                let scissors = new Audio("assets/sounds/button.wav");
+                scissors.play();
+                break;
 
-        case "win":
-            let win = new Audio("assets/sounds/win.wav");
-            win.play();
-            break;
+            case "win":
+                let win = new Audio("assets/sounds/win.wav");
+                win.play();
+                break;
 
-        case "lose":
-            let lose = new Audio("assets/sounds/lose.wav");
-            lose.play();
-            break;
+            case "lose":
+                let lose = new Audio("assets/sounds/lose.wav");
+                lose.play();
+                break;
 
-        default:
-            console.log(click);
+            default:
+                console.log(click);
 
+        }
     }
 }
 
@@ -210,11 +213,11 @@ function countdown() {
 function buttonAnimation(clicked) {
 
     let clickedButton = document.querySelector("#" + clicked);
-  
+
     clickedButton.classList.add("btn-press");
-  
-    setTimeout(function() {
-      clickedButton.classList.remove("btn-press");
+
+    setTimeout(function () {
+        clickedButton.classList.remove("btn-press");
     }, 500);
-  
-  }
+
+}
