@@ -130,6 +130,17 @@ span.onclick = function () {
 /*Sound on/off function */
 muteButton.addEventListener("click", onOff);
 
+function onOff() {
+    mute = !mute;
+ console.log(mute);
+ const volume = document.getElementById("mute");
+ if (volume.innerHTML === '<i class="fa-solid fa-music"></i>') {
+    volume.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
+  } else {
+    volume.innerHTML = '<i class="fa-solid fa-music"></i>';
+  }
+}
+
 /* Sound switch function */
 function clickSound(click) {
     switch (click) {
