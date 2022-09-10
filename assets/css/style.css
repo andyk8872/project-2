@@ -24,10 +24,6 @@ body {
   margin: 2rem 0;
 }
 
-/* .hide-result {
-  display: none;
-} */
-
 /* Heading Settings */
 header {
   background-color: rgb(0, 0, 0, 0.5);
@@ -242,11 +238,7 @@ footer {
 
   .btn {
     width: 5.75rem;
-  }
-
-  /* .hide {
-    display: block;
-  } */
+  } 
 
 }
 
@@ -268,6 +260,10 @@ footer {
     left: 0;
     bottom: 0;
     margin: 5px;
+  }
+
+ .hide-result {
+    display: block;
   }
 
 }
