@@ -10,19 +10,21 @@
     * [Colour Scheme](#color-scheme)
     * [Typography](#typography)    
     * [Wireframes](#Wireframes)
+* [Features](#features)    
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits) 
     * [Media](#media)
     * [Content](content)
-    * [Code & Tutorials](#code-&-tutorials)
+    * [Code and Tutorials](#code-and-tutorials)
     
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
 ## Purpose
+This is primarily a game of chance but also skill for after time you may be able to predict your opponent.
 The basic rock, scissors, paper game  can be  traced back to the Ming Dynasty (1368-1644) It has been used in court cases to resolve disputes (USA 2006 - Avista Management v. Wausau), in sports matches (UK Womens Super League where there was no coin it was used to decide who would kick off).
-There are also the World Societies and Associations and numerous global  championships. 
+There are also the World Societies and Associations and numerous global championships. 
 
 The live website can be found [here](https://andyk8872.github.io/project-2/).
 
@@ -64,20 +66,53 @@ In the contact page there will be be an area to leave a message for the site own
 ## Design
 ### Color Scheme:
 The colors were chosen to complement each other as well as provide accessiblity.<br>
-* ![Color Palete](docs/palete.png)
+ ![Color Palete](docs/palete.png)
 
 ### Typography:
 The Indie Flower and the Inknut Antiqua font are used throughout..
+***
+
+## Features
+### Header:
+#### A header with the game title.
+ ![Header](docs/header.png)<br><br>
+## Game Images: 
+#### The game images/icons (User choice and computer choice)
+ ![Game Images](docs/choice.png)<br>
+## Results: 
+#### The result of each turn and the final result.(Final result not shown on smaller screen sizes)
+ ![Each turn result and final result](docs/result.png)<br>
+## Player buttons: 
+#### The buttons for the player to choose from.
+ ![Players Buttons](docs/user-buttons.png)<br>
+## Score Board:
+### Player and Computer Score. 
+ ![Score Board](docs/score.png)<br>
+## Instructions:
+### Player instructions. 
+ ![User instructions](docs/instructions.png)<br>
+## Sound and About(instruction) buttons: 
+ ![Sound and About buttons](docs/sound-about.png)<br>
 
 
-  ## Deployment:
-  ### Using Github Pages
+***
+## Deployment:
+### Using Github Pages
   1. Navigate to the GitHub [Repository:](https://github.com/andyk8872/project-2)
   1. Click the 'Settings' Tab.
   1. Goto the Git Hub Pages Heading.
   1. Select 'Main Branch' as the source.
   1. Click the Save button.
-  1. Click on the link to go to the live deployed page. [Live Site:](https://andyk8872.github.io/project-2)
+  1. Click on the link to go to the live deployed page. [Live Site:](https://andyk8872.github.io/project-2)  
+
+### Run Locally
+  1. Navigate to the GitHub [Repository:](https://andyk8872.github.io/project-2/)
+  1. Click the Code drop down menu.
+  1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+  1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+  1. Use the 'git clone' command in terminal followed by the copied git URL.
+  1. A clone of the project will be created locally on your machine.
+  
   ***
 
 ## Technologies:
@@ -100,8 +135,10 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 * [Sound](https://www.audiomicro.com/free-sound-effects)
   * The sounds were sourced from audiomicro.com.
 * [Font Awesome](https://fontawesome.com/)  
-  * The icon in th3 contact section
-  * The icons for the sound on/off button         
+  * The icon in the contact section.
+  * The icons for the sound on/off button.
+* [Coolors](https://coolors.co/)
+  * The program for the Color Palete.           
   ***
 
 ## Testing:
@@ -127,7 +164,7 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
     ![JSHint](docs/jshint.png)<br><br> 
 
 * ### Lighthouse Testing Results:
-  * The results from the Lighthouse Testing tool.
+  * The results from the Lighthouse Testing tool (Desktop).
 
     ![Lighthouse](docs/desktop-lighthouse.png)  
     ***     
@@ -137,9 +174,12 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
   * [Love Maths](https://learn.codeinstitute.net/)
     * The score function was reproduced from the Code Institute Love Maths project. 
   * [Free Frontend](https://freefrontend/)
-     * The contact form was reproduced from a Freefront end templete.
+     * The contact form structure was taken from a Freefrontend.com templete.
      ***   
-
+## Acknowledgements:
+ * I would like to thank my mentor Ronan McClelland for his guidence throughout this project.
+ * As this was my first javascript project and, I would like to thank all in the Slack community who helped me in such areas as
+   JSHint when I had many errors and provided me with a solution.
 
 
 
