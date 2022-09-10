@@ -13,6 +13,7 @@ let userScore = 0;
 let computerScore = 0;
 let finalResult = "";
 let timeLeft = 5;
+let mute = false;
 
 /** Record which button is clicked and 
  * run play functionGame */
