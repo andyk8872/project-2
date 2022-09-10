@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  background: #FBDF07 url("https://img.freepik.com/free-vector/wild-desert-landscape-daytime-scene_1308-50629.jpg?w=2000") no-repeat;
+  background: red url("https://img.freepik.com/free-vector/wild-desert-landscape-daytime-scene_1308-50629.jpg?w=2000") no-repeat;
   background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
 #game-area {
   width: 90%;
   text-align: center;
-  background-color: burlywood;
+  background-color: #CC4949;  
   margin: 2rem 0;
 }
 
@@ -68,10 +68,10 @@ img {
 /* Button Styles */
 .btn {
   font-family: 'Inknut Antiqua', serif;
-  background-color: chocolate;
+  background-color: #c1bbc9;
   padding: 0.25rem 0.4rem;
   margin: 0.3rem;
-  color: #fff;
+  color: black;
   border: 1px solid black;
   border-radius: 15px;
   font-size: 0.75rem;
@@ -174,6 +174,11 @@ img {
 .fa-music {  
   font-size: 1.5rem;
   color: green;
+}
+
+.fa-volume {  
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 /* Instructions */

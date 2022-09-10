@@ -113,6 +113,16 @@ In the contact page there will be be an area to leave a message for the site own
     ![CSS Validation](docs/css-error.png)
     ![CSS Validation](docs/css-clear.png)<br><br>
 
+* ### JSHint Code Quality Tool:
+  * The image shows the results from the JSHint tool.
+
+    ![JSHint](docs/jshint.png)<br><br> 
+
+* ### Lighthouse Testing Results:
+  * The results from the Lighthouse Testing tool.
+
+    ![Lighthouse](docs/desktop-lighthouse.png)       
+
 ## Credits:
 * ###  Code and Tutorials    
   * [Love Maths](https://learn.codeinstitute.net/)
