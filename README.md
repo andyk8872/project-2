@@ -93,7 +93,8 @@ In the contact page there will be be an area to leave a message for the site own
 * [Sound](https://www.audiomicro.com/free-sound-effects)
   * The sounds were sourced from audiomicro.com.
 * [Font Awesome](https://fontawesome.com/)  
-  * The icon in th econtact section         
+  * The icon in th3 contact section
+  * The icons for the sound on/off button         
   ***
 
 ## Testing:
@@ -121,7 +122,8 @@ In the contact page there will be be an area to leave a message for the site own
 * ### Lighthouse Testing Results:
   * The results from the Lighthouse Testing tool.
 
-    ![Lighthouse](docs/desktop-lighthouse.png)       
+    ![Lighthouse](docs/desktop-lighthouse.png)  
+    ***     
 
 ## Credits:
 * ###  Code and Tutorials    
@@ -129,8 +131,6 @@ In the contact page there will be be an area to leave a message for the site own
     * The score function was reproduced from the Code Institute Love Maths project. 
   * [Free Frontend](https://freefrontend/)
      * The contact form was reproduced from a Freefront end templete.
-  * [Page Structure](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
-     * The HTML page structure was partly based on an idea from a Youtube tutorial by 'Anna Kubow'.
      ***   
 
 
