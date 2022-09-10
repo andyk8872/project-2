@@ -121,7 +121,7 @@ img {
   font-weight: bold;
 }
 
-/* loser/winner modal styling */ 
+/* loser/winner modal styles */ 
 .winner {
   background-color: rgb(178, 221, 20);
   margin: auto;
@@ -140,6 +140,7 @@ img {
   color: rgb(89, 42, 165);    
 }
 
+/* 'About' modal button styles */
 .about-button:hover,
 .close:hover {
   color: brown;
@@ -157,6 +158,28 @@ img {
   font-weight: bold;
 }
 
+/* Sound on/off button styles */
+.mute {
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 15px;
+  margin: 0 25% 8px 25%;
+  padding: 8px 16px;  
+  font-weight: bold; 
+}
+
+.fa-volume-xmark {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.fa-music {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Instructions */
 .rules {
   color: #fff;
   font-family: 'Indie Flower', cursive;
@@ -240,6 +263,13 @@ footer {
   .about-button {
     position: absolute;
     right: 0;
+    bottom: 0;
+    margin: 5px;
+  }
+
+  .mute {
+    position: absolute;
+    left: 0;
     bottom: 0;
     margin: 5px;
   }
