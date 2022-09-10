@@ -5,12 +5,10 @@
     * [First Time Visitor Goals](#first-time-visitor-goals)
     * [Returning Visitor Goals](#returning-visitor-goals)
     * [Frequent Visitor Goals](#frequent-visitor-goals)
-  * [Structure](#structure)
-  * [Design](#Design)
-  * [Design](#Design)
-    * [Colour Scheme](#Colour-Scheme)
-    * [Typography](#Typography)
-    * [Imagery](#Imagery)
+  * [Structure](#structure)  
+  * [Design](#design)
+    * [Colour Scheme](#color-scheme)
+    * [Typography](#typography)    
     * [Wireframes](#Wireframes)
 * [Technologies](#technologies)
 * [Testing](#testing)
@@ -62,6 +60,15 @@ The site will be responsive and the layout will change dependent on the screen s
 
 In the contact page there will be be an area to leave a message for the site owners.
 ***
+
+## Design
+### Color Scheme:
+The colors were chosen to complement each other as well as provide accessiblity.<br>
+* ![Color Palete](docs/palete.png)
+
+### Typography:
+The Indie Flower and the Inknut Antiqua font are used throughout..
+
 
   ## Deployment:
   ### Using Github Pages
