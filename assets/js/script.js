@@ -5,6 +5,7 @@ const userPicks = document.getElementsByTagName('button');
 const computerChoice = document.getElementById('computer-choice');
 const result = document.getElementById('result');
 const final = document.getElementById('final');
+const muteButton = document.getElementById('mute');
 
 let playerDecide;
 let decision;
@@ -108,7 +109,7 @@ function increaseScore() {
     }
 }
 
-/** The modal contianers using w3schools.com  * 
+/** The modal contianers  * 
  * get, open and close the modal containers  */
 const modal = document.getElementById("aboutModal");
 const win = document.getElementById("winModal");
@@ -125,6 +126,9 @@ btn.onclick = function () {
 span.onclick = function () {
     modal.style.display = "none";
 };
+
+/*Sound on/off function */
+muteButton.addEventListener("click", onOff);
 
 /* Sound switch function */
 function clickSound(click) {
