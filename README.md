@@ -13,6 +13,7 @@
 * [Features](#features)    
 * [Technologies](#technologies)
 * [Testing](#testing)
+  * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits) 
     * [Media](#media)
@@ -21,7 +22,10 @@
     
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
-## Purpose
+## Purpose:
+### Goal:
+#### To produce a game of chance that will provide the user with the opportunity to show their competitive instincts whilst not actually having to compete againest another individual.
+#### To provide a visual and interactive experience that the user will ant to return to.
 This is primarily a game of chance but also skill for after time you may be able to predict your opponent.
 The basic rock, scissors, paper game  can be  traced back to the Ming Dynasty (1368-1644) It has been used in court cases to resolve disputes (USA 2006 - Avista Management v. Wausau), in sports matches (UK Womens Super League where there was no coin it was used to decide who would kick off).
 There are also the World Societies and Associations and numerous global championships. 
@@ -93,6 +97,13 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
  ![User instructions](docs/instructions.png)<br>
 ## Sound and About(instruction) buttons: 
  ![Sound and About buttons](docs/sound-about.png)<br>
+
+## The About Modal (Which icon beats which): 
+ ![About Modal](docs/about-modal.png)<br>
+## The Win Modal (Shows the player is victorious and countdowns until restart):
+ ![Win Modal](docs/win-modal.png)<br>
+## The Lose Modal (Shows the player has lost and countdowns until restart: 
+ ![Sound and About buttons](docs/lose-modal.png)<br>
 
 
 ***
@@ -166,9 +177,16 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 * ### Lighthouse Testing Results:
   * The results from the Lighthouse Testing tool (Desktop).
 
-    ![Lighthouse](docs/desktop-lighthouse.png)  
+    ![Lighthouse](docs/desktop-lighthouse.png)
     ***     
+* ## Bugs:
+  * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks.
+    The only solution I found was to remove Font Awesome icons fron the buttons.
+  * For some reason the Font Awesome 'volume' icon would not work in the project. (I have as yet no solution other than to use an alternative icon)   
+  * When I commented out the 'Final Result' div in order to reduce the size of the game area, various function of the game would not work.
+   This was because the 'div' was insturumental in those other functions. The  solution was to use media-query to hide the 'div' as the screen reduced size.
 
+   ***
 ## Credits:
 * ###  Code and Tutorials    
   * [Love Maths](https://learn.codeinstitute.net/)
@@ -179,7 +197,8 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 ## Acknowledgements:
  * I would like to thank my mentor Ronan McClelland for his guidence throughout this project.
  * As this was my first javascript project and, I would like to thank all in the Slack community who helped me in such areas as
-   JSHint when I had many errors and provided me with a solution.
+   JSHint when I had many errors and ppointed me in the rigght direction.
+      
 
 
 
