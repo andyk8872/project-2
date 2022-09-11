@@ -195,8 +195,12 @@ footer {
   bottom: 0;
   left: 0;
   color: #fff;
-  padding: 5px;
-  background-color: black;
+  padding: 0px;
+  background-color: black;  
+}
+
+.contact {
+  margin-bottom: 0.3rem;
 }
 
 .fa-envelope {
@@ -280,50 +284,71 @@ footer {
 
 }
 
-/* Contact form css from freefrontend.com */
-form {
-  max-width:420px;
-  margin:50px auto;
- }
+/* Contact form  */
+.signup-container {	
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  }
 
-.feedback-input {
-  color:white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid #CC6666;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
-}
+  label {
+	font-weight: 600;
+  }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.form-section {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border: 2px solid #000;
+	border-radius: 8px;
+  }
+  
+ .form-section > h2 {
+	margin: 0 0 30px 0;
+	text-align: center;
+	font-size: 180%;
+  }
+  
+  textarea,
+  input[type="text"],  
+  input[type="email"] {	
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;	
+	margin-top: 5px;	
+	padding: 15px;
+	width: 90%;
+	background-color: #808080;
+	color: #000;	
+	margin-bottom: 30px;
+	border: 1px solid #000;
+  }
+  
+  button {
+	padding: 20px 40px;
+	color: #fff;
+	background-color: 	#760045;
+	font-size: 18px;
+	text-align: center;	
+	border-radius: 5px;
+	width: 100%;	
+	margin-bottom: 10px;
+	margin-top: 5px;
+  }
+ 
+  ::placeholder {
+    color: #fff;
+    font-size: 1.2rem;
+  }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-[type="submit"]:hover { background:#CC4949; }
+  textarea {
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
+    color: #fff;
+    font-size: 1.2rem;
+  }
