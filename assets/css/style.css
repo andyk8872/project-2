@@ -20,7 +20,7 @@ body {
 #game-area {
   width: 90%;
   text-align: center;
-  background-color: #CC4949;  
+  background-color: burlywood;  
   margin: 2rem 0;
 }
 
@@ -62,7 +62,8 @@ h4 {
 }
 
 img {
-  width: 80%
+  width: 100%;
+  height: auto;
 }
 
 /* Button Styles */
@@ -158,7 +159,7 @@ img {
 .mute {
   border: 2px solid black;
   cursor: pointer;
-  background-color: black;
+  background-color: #fff;
   border-radius: 15px;
   margin: 0 25% 8px 25%;
   padding: 8px 16px;  
@@ -203,8 +204,10 @@ footer {
   color: #fff;
 }
 
+/* Instructions */
 .bottom {
   margin: 0;
+  color: black;
 }
 
 /* Display Final */
@@ -244,6 +247,10 @@ footer {
   .btn {
     width: 5.75rem;
   } 
+
+  img {
+    width: 80%;
+  }
 
 }
 
