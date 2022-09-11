@@ -177,7 +177,11 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 * ### Lighthouse Testing Results:
   * The results from the Lighthouse Testing tool (Desktop).
 
-    ![Lighthouse](docs/desktop-lighthouse.png)
+    ![Lighthouse](docs/desktop-lighthouse.png)<br>
+  * The results from the Lighthouse Testing tool (Mobile).
+  
+    ![Lighthouse](docs/mobile-lighthouse.png)<br>
+
     ***     
 * ## Bugs:
   * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks.
