@@ -13,6 +13,7 @@
 * [Features](#features)    
 * [Technologies](#technologies)
 * [Testing](#testing)
+  * [Manual Testing](#manual-testing)
   * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits) 
@@ -179,16 +180,28 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 
     ![Lighthouse](docs/desktop-lighthouse.png)<br>
   * The results from the Lighthouse Testing tool (Mobile).
-  
+
     ![Lighthouse](docs/mobile-lighthouse.png)<br>
 
-    ***     
+    ***   
+* ## Manual Testing:
+  * All user choices/options were tested againest the random computer choices.
+
+    ![Manual Testing](docs/manual-test.png)<br>
+  
+  * The Sound (On/Off) button has been neen tested in the 'ON' positon and there is sound with all the user buttons.
+  * The Sound (On/Off) button has been neen tested in the 'OFF' positon and there is no sound with all the user buttons.
+  * The Sound (On/Off) button has also been tested when the Player/User 'Wins' or 'Loses' againest again epected results.
+
+
+    ***  
 * ## Bugs:
   * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks.
     The only solution I found was to remove Font Awesome icons fron the buttons.
   * For some reason the Font Awesome 'volume' icon would not work in the project. (I have as yet no solution other than to use an alternative icon)   
   * When I commented out the 'Final Result' div in order to reduce the size of the game area, various function of the game would not work.
    This was because the 'div' was insturumental in those other functions. The  solution was to use media-query to hide the 'div' as the screen reduced size.
+  * The Lighthouse Mobile (Best Practices) is reduced due to th efact that the images have been edited various times. 
 
    ***
 ## Credits:
