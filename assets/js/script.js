@@ -132,8 +132,8 @@ span.onclick = function () {
 muteButton.addEventListener("click", onOff);
 
 function onOff() {
-    mute = !mute;   
-    
+    mute = !mute;
+
     if (muteButton.innerHTML === '<i class="fa-solid fa-music"></i>') {
         muteButton.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
     } else {
@@ -172,7 +172,7 @@ function clickSound(click) {
 /* The endGame function - timed restart, disables buttons and win/lose display */
 function endGame() {
     if (userScore === 3) {
-        
+
         for (input of userPicks) {
             input.disabled = true;
         }
@@ -184,7 +184,7 @@ function endGame() {
             window.location.reload();
         }, 5000);
     } else if (computerScore === 3) {
-        
+
         for (input of userPicks) {
             input.disabled = true;
         }
