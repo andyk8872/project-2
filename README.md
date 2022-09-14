@@ -9,7 +9,7 @@
   * [Design](#design)
     * [Colour Scheme](#color-scheme)
     * [Typography](#typography)    
-    * [Wireframes](#Wireframes)
+    * [Wireframes](#wireframes)
 * [Features](#features)    
 * [Technologies](#technologies)
 * [Testing](#testing)
@@ -75,6 +75,10 @@ The colors were chosen to complement each other as well as provide accessiblity.
 
 ### Typography:
 The Indie Flower and the Inknut Antiqua font are used throughout..
+
+### Wireframes:
+This is the design format for the layout of the game in the desktop.
+ ![Wireframes](docs/desktop-wireframe.png)
 ***
 
 ## Features
@@ -105,10 +109,19 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
  ![Win Modal](docs/win-modal.png)<br>
 ## The Lose Modal (Shows the player has lost and countdowns until restart: 
  ![Sound and About buttons](docs/lose-modal.png)<br>
-
+## The Sound button when pressed turns the volume on and off(mute).
 
 ***
 ## Deployment:
+## Project Build:
+The project was started using a tepmlete [template](https://github.com/Code-Institute-Org/gitpod-full-template). Using this templete and then naming it Project-2 under repository name. I ticked the readme.md checkbox saved to main branch and opened Gitpod.
+
+## Git (Version Control):
+ Git was used to manage, track changes and upload changes whilst the project was in development to the main staging area on [Github](https://github.com/)
+ * git add . -This command was used to transfer recent changes to the staging area before commiting.
+ * git commit -m "commit message" - This command was used to commit to the local repository with a message.
+ * git push - This command was used to push all the commited changes stored in the staging area.
+
 ### Using Github Pages
   1. Navigate to the GitHub [Repository:](https://github.com/andyk8872/project-2)
   1. Click the 'Settings' Tab.
@@ -133,7 +146,7 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
 * CSS
 	* This project uses custom written CSS to style the Website.
 * Javascript
-  * This project uses Javascript to implement dynamic features on the site and therefore making it  interactive.
+  * This project uses Javascript to implement dynamic features on the site and therefore making it interactive.
 * [Google Fonts](https://fonts.google.com/)
   * This project uses Google Fonts (Indie Flower and Inknut)
 * [GitHub](https://github.com/)
@@ -150,7 +163,9 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
   * The icon in the contact section.
   * The icons for the sound on/off button.
 * [Coolors](https://coolors.co/)
-  * The program for the Color Palete.           
+  * The program for the Color Palete.  
+* [Browser Testing](https://app.lambdatest.com/viewer/TES10160202521662935472166303)
+  * The program is used for cross browser testing.           
   ***
 
 ## Testing:
@@ -186,12 +201,15 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
     ***   
 * ## Manual Testing:
   * All user choices/options were tested againest the random computer choices.
+    Each  user button was tested with all the computer choices to ensure all permutations were tested and the results were correct.  
 
     ![Manual Testing](docs/manual-test.png)<br>
   
   * The Sound (On/Off) button has been neen tested in the 'ON' positon and there is sound with all the user buttons.
   * The Sound (On/Off) button has been neen tested in the 'OFF' positon and there is no sound with all the user buttons.
-  * The Sound (On/Off) button has also been tested when the Player/User 'Wins' or 'Loses' againest again epected results.
+  * The Sound (On/Off) button has also been tested when the Player/User 'Wins' or 'Loses' againest again epected results.<br>
+  * Using Lambda Test software the website sa been tested on Chrome, Firefox, Safari Edge and Opera.
+  * The website has been tested via Chrome developer tools on all screen sizes.
 
 
     ***  
@@ -201,20 +219,18 @@ The Indie Flower and the Inknut Antiqua font are used throughout..
   * For some reason the Font Awesome 'volume' icon would not work in the project. (I have as yet no solution other than to use an alternative icon)   
   * When I commented out the 'Final Result' div in order to reduce the size of the game area, various function of the game would not work.
    This was because the 'div' was insturumental in those other functions. The  solution was to use media-query to hide the 'div' as the screen reduced size.
-  * The Lighthouse Mobile (Best Practices) is reduced due to th efact that the images have been edited various times. 
+  * The Lighthouse Mobile (Best Practices) is reduced due to the fact that the images have been edited various times. 
 
    ***
 ## Credits:
 * ###  Code and Tutorials    
   * [Love Maths](https://learn.codeinstitute.net/)
-    * The score function was reproduced from the Code Institute Love Maths project. 
-  * [Free Frontend](https://freefrontend/)
-     * The contact form structure was taken from a Freefrontend.com templete.
+    * The score function was reproduced from the Code Institute Love Maths project.   
      ***   
 ## Acknowledgements:
  * I would like to thank my mentor Ronan McClelland for his guidence throughout this project.
  * As this was my first javascript project and, I would like to thank all in the Slack community who helped me in such areas as
-   JSHint when I had many errors and ppointed me in the rigght direction.
+   JSHint when I had many errors and pointed me in the right direction.
       
 
 

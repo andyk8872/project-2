@@ -166,6 +166,7 @@ img {
   font-weight: bold;  
 }
 
+/* Sound button icon styles */
 .fa-volume-xmark {
   font-size: 1.5rem;
   color: red;
@@ -174,11 +175,6 @@ img {
 .fa-music {  
   font-size: 1.5rem;
   color: green;
-}
-
-.fa-volume {  
-  font-size: 1.5rem;
-  color: #fff;
 }
 
 /* Instructions */
@@ -217,71 +213,6 @@ footer {
 /* Display Final */
 .hide-result {
   display: none;
-}
-
-/* Media Queries */
-@media screen and (min-width: 576px) {
-
-  h1 {
-    font-size: 1.25rem;   
-  }
-
-  #game-area {
-    width: 60%;
-  }
-
-  p {
-    margin-bottom: 0.8rem;
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1.75rem;
-  }
- 
-}
-
-@media screen and (min-width: 768px) {
-
-  h1 {
-    font-size: 1.6rem;
-    word-spacing: 2rem;
-  }
-
-  .btn {
-    width: 5.75rem;
-  } 
-
-  img {
-    width: 80%;
-  }
-
-}
-
-@media screen and (min-width: 992px) {
-
-  #game-area {
-    position: relative;
-  }
-
-  .about-button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 5px;
-  }
-
-  .mute {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 5px;
-  }
-
- .hide-result {
-    display: block;
-  }
-
 }
 
 /* Contact form  */
@@ -352,3 +283,68 @@ footer {
     color: #fff;
     font-size: 1.2rem;
   }
+
+/* Media Queries */
+@media screen and (min-width: 576px) {
+
+  h1 {
+    font-size: 1.25rem;   
+  }
+
+  #game-area {
+    width: 60%;
+  }
+
+  p {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 1.6rem;
+    word-spacing: 2rem;
+  }
+
+  .btn {
+    width: 5.75rem;
+  } 
+
+  img {
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  #game-area {
+    position: relative;
+  }
+
+  .about-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+  }
+
+  .mute {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 5px;
+  }
+
+ .hide-result {
+    display: block;
+  }
+
+}

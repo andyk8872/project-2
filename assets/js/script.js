@@ -172,8 +172,8 @@ function clickSound(click) {
 /* The endGame function - timed restart, disables buttons and win/lose display */
 function endGame() {
     if (userScore === 3) {
-        const inputs = document.getElementsByTagName("button");
-        for (const input of inputs) {
+        // const inputs = document.getElementsByTagName("button");
+        for (input of userPicks) {
             input.disabled = true;
         }
         finalResult = "A great victory";
@@ -184,8 +184,8 @@ function endGame() {
             window.location.reload();
         }, 5000);
     } else if (computerScore === 3) {
-        const inputs = document.getElementsByTagName("button");
-        for (const input of inputs) {
+        // const inputs = document.getElementsByTagName("button");
+        for (input of userPicks) {
             input.disabled = true;
         }
         finalResult = "Computer Rules";
