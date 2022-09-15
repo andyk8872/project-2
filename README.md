@@ -1,4 +1,4 @@
-## Table of Contents
+## [Table of Contents](#table-of-contents)
 * [Purpose](#purpose)
  * [User Experience Design (UX)](#user-experience-design)
   * [User stories](#user-stories)
@@ -16,10 +16,9 @@
   * [Manual Testing](#manual-testing)
   * [Bugs](#bugs)
 * [Deployment](#deployment)
-* [Credits](#credits) 
-    * [Media](#media)
-    * [Content](content)
-    * [Code and Tutorials](#code-and-tutorials)
+* [Credits](#credits)
+   * [Code and Tutorials](#code-and-tutorials)
+* [Acknoledgements](#acknowledgements)   
     
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
@@ -31,12 +30,15 @@ This is primarily a game of chance but also skill for after time you may be able
 The basic rock, scissors, paper game  can be  traced back to the Ming Dynasty (1368-1644) It has been used in court cases to resolve disputes (USA 2006 - Avista Management v. Wausau), in sports matches (UK Womens Super League where there was no coin it was used to decide who would kick off).
 There are also the World Societies and Associations and numerous global championships. 
 
+* [Back to contents](#table-of-contents)
+
 The live website can be found [here](https://andyk8872.github.io/project-2/).
 
 ## Rock Scissors Paper Lizard Spock Website
 
 ![Website Mock Up](docs/responsive.png)
 
+* [Back to contents](#table-of-contents)
 *** 
 ## User Experience Design
 
@@ -52,6 +54,8 @@ The live website can be found [here](https://andyk8872.github.io/project-2/).
 #### Frequent Visitor Goals
 * As a Frequent user, I want to check to see if there are any changes.
 * As a Frequent user, I want to check to see if there are any new updates.
+
+* [Back to contents](#table-of-contents)
 ***
 
 ## Structure
@@ -66,6 +70,8 @@ The site will be responsive and the layout will change dependent on the screen s
 > As a Firt Time user, I want to find to be able to contact the site owners.
 
 In the contact page there will be be an area to leave a message for the site owners.
+
+* [Back to contents](#table-of-contents)
 ***
 
 ## Design
@@ -76,9 +82,21 @@ The colors were chosen to complement each other as well as provide accessiblity.
 ### Typography:
 The Indie Flower and the Inknut Antiqua font are used throughout..
 
+* [Back to contents](#table-of-contents)
+***
+
 ### Wireframes:
-This is the design format for the layout of the game in the desktop.
- ![Wireframes](docs/desktop-wireframe.png)
+<details><summary>Desktop-Wireframes</summary>
+* This is the design format for the layout of the game in the desktop.
+<img src="docs/desktop-wireframe.png">
+</details>
+
+<details><summary>Mobile-Wireframes</summary>
+ * This is the design format for the layout of the game for mobile.
+<img src="docs/mobile-wireframe.png">
+</details>
+
+* [Back to contents](#table-of-contents)
 ***
 
 ## Features
@@ -89,7 +107,7 @@ This is the design format for the layout of the game in the desktop.
 #### The game images/icons (User choice and computer choice)
  ![Game Images](docs/choice.png)<br>
 ## Results: 
-#### The result of each turn and the final result.(Final result not shown on smaller screen sizes)
+#### The result of each turn and the final result. (Final result not shown on smaller screen sizes)
  ![Each turn result and final result](docs/result.png)<br>
 ## Player buttons: 
 #### The buttons for the player to choose from.
@@ -102,7 +120,6 @@ This is the design format for the layout of the game in the desktop.
  ![User instructions](docs/instructions.png)<br>
 ## Sound and About(instruction) buttons: 
  ![Sound and About buttons](docs/sound-about.png)<br>
-
 ## The About Modal (Which icon beats which): 
  ![About Modal](docs/about-modal.png)<br>
 ## The Win Modal (Shows the player is victorious and countdowns until restart):
@@ -110,8 +127,11 @@ This is the design format for the layout of the game in the desktop.
 ## The Lose Modal (Shows the player has lost and countdowns until restart: 
  ![Sound and About buttons](docs/lose-modal.png)<br>
 ## The Sound button when pressed turns the volume on and off(mute).
+ ![Sound on/off (mute) button](docs/mute.png) ![Sound on/off (mute) button](docs/quiet.png)
 
+* [Back to contents](#table-of-contents)
 ***
+
 ## Deployment:
 ## Project Build:
 The project was started using a tepmlete [template](https://github.com/Code-Institute-Org/gitpod-full-template). Using this templete and then naming it Project-2 under repository name. I ticked the readme.md checkbox saved to main branch and opened Gitpod.
@@ -137,7 +157,8 @@ The project was started using a tepmlete [template](https://github.com/Code-Inst
   1. Open your developement editor of choice and open a terminal window in a directory of your choice.
   1. Use the 'git clone' command in terminal followed by the copied git URL.
   1. A clone of the project will be created locally on your machine.
-  
+
+  * [Back to contents](#table-of-contents)
   ***
 
 ## Technologies:
@@ -163,14 +184,18 @@ The project was started using a tepmlete [template](https://github.com/Code-Inst
   * The icon in the contact section.
   * The icons for the sound on/off button.
 * [Coolors](https://coolors.co/)
-  * The program for the Color Palete.  
+  * The program for the Color Palete.
+* [Balsamiq](https://balsamiq.com/wireframes/)
+  * This design program was used to ooutine the basic outline/design of the site.     
 * [Browser Testing](https://app.lambdatest.com/viewer/TES10160202521662935472166303)
-  * The program is used for cross browser testing.           
+  * The program is used for cross browser testing. 
+
+* [Back to contents](#table-of-contents)
   ***
 
 ## Testing:
 * ### Code Validation
-  * The Game has been throughly tested. All the code has been validated through w3c HTML Validator, w3c CSS Validator and the JSHint Validator.
+  * The game has been throughly tested. All the code has been validated through w3c HTML Validator, w3c CSS Validator and the JSHint Validator.
     Any errors shown were remedied. This can all be seen below.<br><br>
 
 * ### HTML Validation Image
@@ -198,21 +223,23 @@ The project was started using a tepmlete [template](https://github.com/Code-Inst
 
     ![Lighthouse](docs/mobile-lighthouse.png)<br>
 
+  * [Back to contents](#table-of-contents)
     ***   
 * ## Manual Testing:
   * All user choices/options were tested againest the random computer choices.
-    Each  user button was tested with all the computer choices to ensure all permutations were tested and the results were correct.  
+    Each user button was tested with all the computer choices to ensure all permutations were tested and the results were correct.  
 
     ![Manual Testing](docs/manual-test.png)<br>
   
   * The Sound (On/Off) button has been neen tested in the 'ON' positon and there is sound with all the user buttons.
   * The Sound (On/Off) button has been neen tested in the 'OFF' positon and there is no sound with all the user buttons.
   * The Sound (On/Off) button has also been tested when the Player/User 'Wins' or 'Loses' againest again epected results.<br>
-  * Using Lambda Test software the website sa been tested on Chrome, Firefox, Safari Edge and Opera.
+  * Using Lambda Test software the website has been tested on Chrome, Firefox, Safari Edge and Opera.
   * The website has been tested via Chrome developer tools on all screen sizes.
 
-
+  * [Back to contents](#table-of-contents)
     ***  
+   
 * ## Bugs:
   * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks.
     The only solution I found was to remove Font Awesome icons fron the buttons.
@@ -222,16 +249,14 @@ The project was started using a tepmlete [template](https://github.com/Code-Inst
   * The Lighthouse Mobile (Best Practices) is reduced due to the fact that the images have been edited various times. 
 
    ***
-## Credits:
-* ###  Code and Tutorials    
+* ## Credits:
+  * ###  Code and Tutorials    
   * [Love Maths](https://learn.codeinstitute.net/)
     * The score function was reproduced from the Code Institute Love Maths project.   
      ***   
-## Acknowledgements:
- * I would like to thank my mentor Ronan McClelland for his guidence throughout this project.
- * As this was my first javascript project and, I would like to thank all in the Slack community who helped me in such areas as
+* ## Acknowledgements:
+  * I would like to thank my mentor Ronan McClelland for his guidence throughout this project.
+  * As this was my first javascript project and, I would like to thank all in the Slack community who helped me in such areas as
    JSHint when I had many errors and pointed me in the right direction.
       
-
-
-
+* [Back to contents](#table-of-contents)
