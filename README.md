@@ -26,7 +26,7 @@
 ### Goal:
 #### To produce a game of chance that will provide the user with the opportunity to show their competitive instincts whilst not actually having to compete againest another individual.
 #### To provide a visual and interactive experience that the user will ant to return to.
-This is primarily a game of chance but also skill for after time you may be able to predict your opponent.
+This is primarily a game of chance but also skill for after time you may be able to predict your opponents choice.
 The basic rock, scissors, paper game  can be  traced back to the Ming Dynasty (1368-1644) It has been used in court cases to resolve disputes (USA 2006 - Avista Management v. Wausau), in sports matches (UK Womens Super League where there was no coin it was used to decide who would kick off).
 There are also the World Societies and Associations and numerous global championships. 
 
@@ -67,7 +67,7 @@ Custom CSS will be used to make the website responsive by the use of media queri
 
 The site will be responsive and the layout will change dependent on the screen size. This is to enhance the user experience.
 
-> As a Firt Time user, I want to find to be able to contact the site owners.
+> As a Firt Time user, I want to be able to contact the site owners.
 
 In the contact page there will be be an area to leave a message for the site owners.
 
@@ -241,7 +241,7 @@ The project was started using a tepmlete [template](https://github.com/Code-Inst
     ***  
    
 * ## Bugs:
-  * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks.
+  * Using Font Awesome icons the HTML buttons (user choice) resulted in the  javascript script not acknowleding the user clicks (approximately 10% of the time).
     The only solution I found was to remove Font Awesome icons fron the buttons.
   * For some reason the Font Awesome 'volume' icon would not work in the project. (I have as yet no solution other than to use an alternative icon)   
   * When I commented out the 'Final Result' div in order to reduce the size of the game area, various function of the game would not work.
