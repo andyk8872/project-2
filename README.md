@@ -19,7 +19,7 @@
 * [Credits](#credits)
    * [Code and Tutorials](#code-and-tutorials)
 * [Acknoledgements](#acknowledgements)   
-    
+  * [Acknoledgements](#acknowledgements)   
 
 # ROCK SCISSORS PAPER LIZARD SPOCK GAME
 ## Purpose:
