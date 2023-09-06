@@ -10,10 +10,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   background: red url("https://img.freepik.com/free-vector/wild-desert-landscape-daytime-scene_1308-50629.jpg?w=2000") no-repeat;
   background-size: cover;
+  /* height: 100vh; */
 }
 
 /* Game-Area Settings*/
@@ -104,6 +105,11 @@ img {
   color: brown;
   text-align: center;
   max-height: 100vh;
+  position: absolute;
+  /* float: left; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* The Close Modal Button */
